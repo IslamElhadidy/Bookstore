@@ -1,0 +1,130 @@
+/* general */
+body {
+    font-family: 'Cairo', sans-serif;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* general */
+
+
+
+/* nav-bar */
+.navbar {
+    box-shadow: 0 0 20px #58A4B4;
+}
+/* nav-bar */
+
+
+
+/* header */
+header {
+    min-height: 100vh;
+    background: linear-gradient(#58a5b496,#58a5b496) ,url(../images/mountains.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+}
+
+@media (max-width:767px){
+    header .image-left img {
+        width: 350px;
+    }
+}
+
+header .text {
+font-size: 25px;
+font-family: 'Cairo', sans-serif;
+}
+/* header */
+
+
+
+/* section-note */
+@media (max-width:757px) {
+    .section-note .container  {
+        width: 100% !important;  
+    }
+}
+/* section-note */
+
+
+/* section-according */
+@media (max-width:767px) {
+    .section-according .container {
+        width: 100% !important;
+    }
+}
+/* section-according */
+
+/* writers-section */
+.writers img { 
+    margin-top: -50px;
+    transition: 0.5s;
+
+}
+.writers .card:hover img { 
+    transform: scale(1.1);
+
+}
+.writers .card:hover { 
+    border-color: rgb(13, 116, 185);
+
+}
+.writers h2 {
+    font-size: 20px;
+    padding-top: 10px;
+    display: block;
+}
+.writers h6 {
+    color: #777;
+    font-weight: bold;
+    font-size: 12px;
+}
+/* writers-section */
+
+
+
+/* info-section */
+.info textarea {
+    resize: none;
+    height: 120px;
+}
+.info .special {
+    width: 47px;
+}
+.info p {
+    color: #777;
+}
+@media(min-width:770px) {
+.info img {
+    width: 244px;
+}
+}
+/* info-section */
+
+
+
+/* footer */
+footer {
+    height: 240px;
+    overflow: hidden;
+}
+footer p {
+    margin-right: 110px;
+    margin-top: 15px;
+}
+@media (max-width:767px) {
+    footer p {
+        margin-right:40px;
+        
+    }
+}
+/* footer */
